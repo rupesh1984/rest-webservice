@@ -24,7 +24,8 @@ Use is very simple. Followings steps to be done:
           
           we can send here header information too.
           
-3. webSer.post()
+3. Usage of object:
+    webSer.post()
     .then(function(resp){
      // YOUR WAY
     }).
