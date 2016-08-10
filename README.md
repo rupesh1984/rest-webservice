@@ -10,7 +10,6 @@ Use is very simple. Followings steps to be done:
    
    --save : it will allow to save this package in your package.json
    
-   
 2. create object :
 
    var wS = new webService(url, data);
@@ -25,22 +24,14 @@ Use is very simple. Followings steps to be done:
           
           we can send here header information too.
           
-          
 3. webSer.post()
-
     .then(function(resp){
-    
      // YOUR WAY
-     
     }).
-    
     catch(function(err){
-    
       // ERR
-      
     })
     
    It's promisify , you can leverage benifit of Bluebird Promise here
-   
 
 Making it more mature in coming days , your help / feedback will appricaited
