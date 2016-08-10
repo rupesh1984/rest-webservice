@@ -6,7 +6,7 @@ Use is very simple. Followings steps to be done:
 
 1. Install package :
 
-   #npm install rest-webservice --save
+   npm install rest-webservice --save
    
    --save : it will allow to save this package in your package.json
    
