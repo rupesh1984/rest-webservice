@@ -2,7 +2,7 @@
 Why rest-webservice?.
 
 So not found anywhere a RESTFul webservice packge which provides : promise and object oriented easy to use approach.
-Use is very simple. Followings steps to be done:
+Use is very simple. Followings steps to be done:\n
 1. Install package :
    #npm install rest-webservice --save
    --save : it will allow to save this package in your package.json
