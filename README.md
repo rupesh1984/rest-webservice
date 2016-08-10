@@ -25,12 +25,19 @@ Use is very simple. Followings steps to be done:
           we can send here header information too.
           
 3. Usage of object:
+
     webSer.post()
+    
     .then(function(resp){
+    
      // YOUR WAY
+     
     }).
+    
     catch(function(err){
+    
       // ERR
+      
     })
     
    It's promisify , you can leverage benifit of Bluebird Promise here
