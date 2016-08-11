@@ -25,7 +25,7 @@ var webService = function(url, data, timeout){
         return false;
       })
   });
-  this.post = Promise.method(function(cb){
+  this.post = Promise.method(function(){
     rest.post(this.url, this.data)
       .on('complete', function(response){
         this.response = response;
